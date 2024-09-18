@@ -123,7 +123,7 @@ return {
       ---@type table<string, vim.lsp.Config>
       local servers = {
         clangd = {
-          -- cmd = { '/usr/bin/clang++-12' },
+          cmd = { 'clangd', '--header-insertion=never' },
         },
         -- gopls = {},
         pyright = {},
