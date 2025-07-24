@@ -26,6 +26,7 @@ return {
         'gitattributes',
         'git_config',
         'git_rebase',
+        'java',
         'json',
         'robot',
         'rst',
