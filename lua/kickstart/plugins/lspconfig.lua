@@ -125,7 +125,7 @@ return {
         clangd = {
           cmd = { 'clangd', '--header-insertion=never' },
         },
-        -- gopls = {},
+        gopls = {},
         pyright = {},
         -- rust_analyzer = {},
         --
